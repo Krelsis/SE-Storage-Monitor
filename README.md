@@ -92,3 +92,8 @@ Scenario: You have some lighting set up around the base, you have several lights
 If you have not specified a group then the group is set to **[Default]** to interact with this group/responsibilty you can do so with `[StorageResponsibility]:[Default]`.  This saves time and hassle if your intent is to use this script to track ALL cargo containers, you can just use the Default group/responsibility.
   
 Using the above exmaple regarding the lights, the lights will have to include `[StorageResponsibility]:[Default]` as they are a miscellaneous block and won't be controlled automatically. However, the programmable block, cockpits, lcd's and cargo containers will be controlled/assigned to the Default group automatically and will not have to be assigned to the group.
+
+------------------------------------------------------------------------  
+# License: 
+
+This script utilises the [MIT License](https://github.com/Krelsis/SE-Storage-Monitor/blob/master/LICENSE)
