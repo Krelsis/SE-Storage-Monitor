@@ -812,7 +812,7 @@ namespace StorageMonitor
             var MassInGigaGrams = MassInMegaGrams / 1000;
             var MassInTeraGrams = MassInGigaGrams / 1000;
             var MassInPetaGrams = MassInTeraGrams / 1000;
-            var MassInExaGrams = MassInTeraGrams / 1000;
+            var MassInExaGrams = MassInPetaGrams / 1000;
             var MassInZettaGrams = MassInExaGrams / 1000;
 
             double Value = 0;
@@ -873,7 +873,7 @@ namespace StorageMonitor
             var VolumeInGigaLitres = VolumeInMegaLitres / 1000;
             var VolumeInTeraLitres = VolumeInGigaLitres / 1000;
             var VolumeInPetaLitres = VolumeInTeraLitres / 1000;
-            var VolumeInExaLitres = VolumeInTeraLitres / 1000;
+            var VolumeInExaLitres = VolumeInPetaLitres / 1000;
             var VolumeInZettaLitres = VolumeInExaLitres / 1000;
 
             double Value = 0;
